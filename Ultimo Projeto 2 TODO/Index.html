@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Lista de Tarefas</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <!--formulario-->
+    <div class="container ">
+        <form method="post">
+            <input type="text"  id = "atividade" placeholder="Digite sua atividade">
+            <input type="date" id="dataAtv">
+            <input type="submit" id ="btnCadastrar" value="Cadastrar">
+        </form>
+    </div>
+    <!--Lista-->
+
+    <div class="container1">
+        <table>
+            <thead>
+            <tr>
+                <th>Número da atividade</th>
+                <th>Atividade</th>
+                <th>Data</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody id ="lista">
+        
+        </tbody>
+        </table>
+    </div>
+    <script src="./Todo.Js"></script>
+</body>
+</html>
